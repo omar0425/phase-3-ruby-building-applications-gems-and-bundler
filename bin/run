@@ -1,3 +1,9 @@
 #!/usr/bin/env ruby 
 
 # require the environment file
+require_relative '../config/environment'
+
+array = [1,2,3,4]
+hash = {:a => 4, :b => 10}
+ap array
+ap hash
